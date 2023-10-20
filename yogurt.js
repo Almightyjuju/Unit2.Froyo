@@ -22,6 +22,7 @@ function countFlavors(orders) {
 
 const flavorCounts = countFlavors(orders);
 console.log(flavorCounts);
+console.table(flavorCounts);
 // 1. Create an empty object to hold flavor counts
 // 2. Loop over the ‘orders’ array
 // 3. In the loop add an if/else
