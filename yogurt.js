@@ -6,7 +6,6 @@ const orders = [
   "coffee",
   "coffee",
 ];
-
 function countFlavors(orders) {
   let obj = {};
   for (let i = 0; i < orders.length; i++) {
